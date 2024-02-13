@@ -1,0 +1,68 @@
+* {
+    min-width: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 2.7em;
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.refresh {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+
+#motivation {
+    background-color: rgba(20,20,20,0.6);
+    align-self: flex-end;
+    display: flex;
+    flex-flow: column nowrap;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    height: 13.6em;
+    width: 45vw;
+    padding: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    & > div{
+        align-self: flex-end;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        width: 100%;
+        justify-content:space-between;
+    }
+}
+
+
+#date {
+    font-variant: small-caps;
+    margin-top: 10%;
+    width: 90vw;
+    height: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1.2rem;
+    align-items: flex-start;
+    padding: 2em;
+    &, h1 {
+        font-size: x-large;
+    }
+
+}
+
+#weathericon {
+    width: 2.5rem;
+    height: 2.5rem;
+
+}

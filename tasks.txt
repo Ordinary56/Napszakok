@@ -1,0 +1,25 @@
+Kedves diákok!
+
+Készítsétek el a design mappában található weboldalt!
+Az oldal mindig mutassa az aktuális időt, másodperc pontossággal (a dizájnnak megfelelő formátumban).
+
+06:00-11:59 - Morning.png
+12:00 - 19:59 - Afternoon.png
+20:00 - 05:59 - Night.png
+
+(Tudom hogy az Evening kimaradt, de nem találtam elég jó képet... Szorgalmiban meg lehet csinálni).
+
+Felhívnám a figyelmet a köszöntés melletti kicsi ikonra, amit csatolva megtaláltok majd az src mappában!
+
+Ajánlott olvasmány ami segíthet a Europe/Budapest részhez (mivel ezt NYILVÁN nem csak begépelni kell...):
+
+https://philna.sh/blog/2021/02/22/display-dates-in-your-users-time-zone/
+
+Az oldal másik fontos része a motivációs idézet, ami jobbra fent kapott helyet.
+Itt a https://type.fit/api/quotes API-ból lekérhető idézetet kell megjeleníteni, ami a "refresh" gombra kattintva (és az oldal újratöltésére) jelenik meg. A "refresh" gomb NE töltse újra az egész oldalt!
+
+A megoldásokat a saját GitHub-otokra töltsétek fel, és a linket a classroomban kiírt feladathoz adjátok le!
+
+Az oldal nyilvánvalóan legyen reszponzív, ezt tetszőleges dizájnnal megoldhatjátok, a lényeg hogy telefonon is legyen esztétikus, és a desktoppal azonos elemeket jelenítse meg!
+
+Jó munkát kívánok!
